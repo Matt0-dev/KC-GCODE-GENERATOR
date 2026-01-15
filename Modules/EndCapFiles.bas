@@ -11,7 +11,7 @@ Sub GenerateCNCEndCapFiles()
     Const C_VALUE As Double = 12
     Const MIN_LENGTH As Double = 40
     Const MAX_LENGTH As Double = 120
-    Const WIDTH_VALUE As Double = 11.75
+    Const WIDTH_VALUE As Double = 11.75 ' change this value depending on whatever width you want to do example being 11.75, 22.75, 34.75, 46.75
     
     ' Panel sizes (X values)
     Dim panelSizes As Variant
